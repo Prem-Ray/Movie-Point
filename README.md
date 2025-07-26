@@ -1,45 +1,75 @@
 # 🎬 Movie Point
 
-A sleek movie search app built with **React** and **Tailwind CSS**. Browse, search, and favorite movies — all using local data (no API).
+A sleek, local-data movie app built with **React + Vite** and styled using **Tailwind CSS**.
+
+> 🔌 No external APIs — all data is locally managed.
+
+---
 
 ## 🚀 Features
 
 - 🔍 Search & filter movies
-- ❤️ Add/remove favorites (stored in localStorage)
-- ❌ "No movies found" fallback UI
+- ❤️ Add/remove favorites (stored in `localStorage`)
 - 🎥 Optional sticky background video
-- 🌓 Clean dark UI with Tailwind
-- ⚛️ Context API for global state
+- ❌ "No movies found" fallback UI
+- 🌘 Dark, glassmorphic interface
+- ⚛️ Global state via Context API
 
-## 🛠️ Getting Started
+---
+
+## 📦 Tech Stack
+
+- React 19 + JSX
+- Vite
+- Tailwind CSS
+- React Icons / Lucide
+- React Router DOM
+
+---
+
+## 📁 Folder Structure
+
+```
+
+movieapp/
+├── public/            # Static assets (icon, movie.mp4)
+├── src/
+│   ├── components/    # MovieCard, NavBar
+│   ├── context/       # MovieContext.jsx
+│   ├── pages/         # Home.jsx, Favourites.jsx, Nothing.jsx
+│   ├── services/      # Movies.jsx (local movie data)
+├── index.html
+├── vite.config.js
+└── README.md
+
+````
+
+---
+
+## 🛠️ Setup
 
 ```bash
 git clone https://github.com/Prem-Ray/Movie-Point.git
 cd Movie-Point
 npm install
-npm run dev       # Start development server
-npm run build     # Create production build
-npm run preview   # Preview the production build
+npm run dev       # Start dev server
+npm run build     # Build for production
+npm run preview   # Preview built app
 ````
 
-## 📦 Tech Stack
+---
 
-* React 19 + JSX
-* Tailwind CSS
-* React Icons
-* React Router DOM
-* Local JavaScript movie dataset
+## 📤 Deployment
 
-## 📁 Folder Structure
+Use the generated `dist/` folder with:
 
-```
-/components     # UI components like MovieCard, Navbar
-/context        # React Context for global movie state
-/pages          # Home, Favorites, etc.
-data.js         # Local movie dataset (no API)
-```
+* [Vercel](https://vercel.com)
+* [Netlify](https://netlify.com)
+* Static hosting (like GitHub Pages + Vite plugin)
+
+---
 
 ## 👨‍💻 Author
 
 **Premanshu Ray**
-📎 [GitHub](https://github.com/Prem-Ray)
+🔗 [GitHub](https://github.com/Prem-Ray)
