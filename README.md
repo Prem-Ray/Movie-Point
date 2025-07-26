@@ -61,11 +61,7 @@ npm run preview   # Preview built app
 
 ## 📤 Deployment
 
-Use the generated `dist/` folder with:
-
-* [Vercel](https://vercel.com)
-* [Netlify](https://netlify.com)
-* Static hosting (like GitHub Pages + Vite plugin)
+* [Netlify](https://moviepointer.netlify.app/)
 
 ---
 
