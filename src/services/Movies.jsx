@@ -384,6 +384,120 @@ export const movies = [
     release_date: "2022-01-21",
     url: "https://i.pinimg.com/originals/4f/cf/62/4fcf62c1200e7adfdb1344535967766f.jpg?nii=t",
     description: "A heartfelt coming‑of‑age Malayalam romantic drama, 'Hridayam' follows Arun's transformative journey from carefree college days to adulthood, shaped by love, mistakes, music and self‑discovery."
+  },
+
+   {
+    id: 49,
+    title: "Border",
+    release_date: "1997-06-13",
+    url: "https://i.pinimg.com/564x/3b/64/57/3b645739f483733547db25eb21caf6d5.jpg",
+    description:
+      "Based on the 1971 Battle of Longewala, this epic war drama chronicles the bravery of an Indian Army battalion defending their post against overwhelming odds."
+  },
+  {
+    id: 50,
+    title: "LOC: Kargil",
+    release_date: "2003-12-25",
+    url: "https://i.pinimg.com/564x/f9/26/7a/f9267af2e4a5a35c2a91c84fb0362f64.jpg",
+    description:
+      "A detailed portrayal of Operation Vijay during the Kargil War, with an ensemble cast showcasing sacrifice, strategy and patriotism."
+  },
+  {
+    id: 51,
+    title: "Lakshya",
+    release_date: "2004-06-18",
+    url: "https://i.pinimg.com/474x/6b/81/0c/6b810caecfe7746f1f841f0199b49ef3.jpg",
+    description:
+      "A coming‑of‑age war drama where Hrithik Roshan transforms from aimless youth into a committed army officer during the Kargil conflict."
+  },
+  {
+    id: 52,
+    title: "Shaurya",
+    release_date: "2008-04-04",
+    url: "https://i.pinimg.com/736x/4f/ac/9b/4fac9ba298743cbbdd1be8864bf6556f.jpg",
+    description:
+      "A military courtroom drama exploring honour, duty and justice when an army officer is accused of killing his commanding officer."
+  },
+  {
+    id: 53,
+    title: "1971",
+    release_date: "2007-03-09",
+    url: "https://i.pinimg.com/474x/f6/e5/ff/f6e5ff2f31a2717edd632e35ec2e9091.jpg",
+    description:
+      "Inspired by true events: six Indian soldiers escape a Pakistani POW camp in 1971, risking everything to return home."
+  },
+  {
+    id: 54,
+    title: "The Ghazi Attack",
+    release_date: "2017-02-17",
+    url: "https://i.pinimg.com/736x/ef/d4/00/efd400f6720bf42bb9c447b402737f15.jpg",
+    description:
+      "India's first submarine thriller, dramatizing the sinking of PNS Ghazi during the 1971 war aboard INS Karanj."
+  },
+  {
+    id: 55,
+    title: "Shershaah",
+    release_date: "2021-08-12",
+    url: "https://i.pinimg.com/236x/b0/1c/d1/b01cd11b004804282bfd4191e969ec76.jpg",
+    description:
+      "Biopic of Captain Vikram Batra, Param Vir Chakra awardee, focusing on his courage and sacrifice during the Kargil War."
+  },
+  {
+    id: 56,
+    title: "Bhuj: The Pride of India",
+    release_date: "2021-08-13",
+    url: "https://i.pinimg.com/564x/88/52/dd/8852dd419a6ce60092c805d840c88445.jpg",
+    description:
+      "Based on the real 1971 war effort in Bhuj: local women rebuild the airstrip in 72 hours to support the Air Force."
+  },
+  {
+    id: 57,
+    title: "Sam Bahadur",
+    release_date: "2023-12-01",
+    url: "https://i.pinimg.com/736x/c5/39/12/c53912768a3825d4bae3cb3dd1ed2108.jpg",
+    description:
+      "Biographical epic on India’s first Field Marshal Sam Manekshaw, chronicling his leadership through WWII and the 1971 war."
+  },
+
+  {
+    id: 59,
+    title: "Civil War",
+    release_date: "2024-04-12",
+    url: "https://i.pinimg.com/736x/7d/ff/3b/7dff3b26a7d32d67106da55b93067f12.jpg",
+    description:
+      "A dystopian action‑thriller by Alex Garland depicting a U.S. civil war through the eyes of war correspondents traversing ravaged cities."
+  },
+  {
+    id: 60,
+    title: "Warfare",
+    release_date: "2025-04-09",
+    url: "https://i.pinimg.com/736x/77/53/2b/77532ba166fe8c7c0fa22ef38127fca6.jpg",
+    description:
+      "An unflinching portrayal of a botched U.S. Navy SEAL operation in Iraq—claustrophobic, minimalistic, and grounded in real military detail."
+  },
+  {
+    id: 61,
+    title: "The Six Triple Eight",
+    release_date: "2024-12-06",
+    url: "https://savethecat.com/wp-content/uploads/2025/06/blog-page.jpg",
+    description:
+      "World War II drama about the 6888th Central Postal Directory Battalion—the all-African‑American, all-female unit behind Allied communication logistics."
+  },
+  {
+    id: 62,
+    title: "The Ministry of Ungentlemanly Warfare",
+    release_date: "2024-04-19",
+    url: "https://i0.wp.com/the-past.com/wp-content/uploads/2024/09/post-1_image0-13.jpg?w=1230&ssl=1",
+    description:
+      "Guy Ritchie’s stylized tribute to Churchill’s secret SOE operatives during WWII, starring Henry Cavill and Henry Golding."
+  },
+  {
+    id: 63,
+    title: "Shadow Force",
+    release_date: "2025-05-09",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoBmHTC_xiWuj0JCJDQJds5ljeqtEGLHAMw&s",
+    description:
+      "A Lionsgate action thriller about covert ops featuring a multinational cast—espionage, intense combat scenes, but underwhelming box office."
   }
 
 

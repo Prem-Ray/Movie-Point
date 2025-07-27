@@ -27,15 +27,16 @@ export function MovieCard({ movie }) {
      {/* Poster */}
       <div className="movie-poster relative select-none">
         <img
-        loading="lazy"
-          src={
-            movie.url ||
-            `https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg`
-          }
-          alt={movie.title}
-          draggable="false"
-          className="select-none w-full h-[300px] object-cover rounded-t-2xl"
-        />
+  loading="lazy"
+  src={
+    movie.url ||
+    `https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg`
+  }
+  alt={movie.title}
+  draggable="false"
+  className="w-full h-[300px] sm:h-[340px] object-cover select-none rounded-t-2xl shadow-lg bg-gray-100"
+/>
+
         {/* Favorite Icon Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/30 via-black/20 to-black/80 flex items-start justify-end p-3 pointer-events-none">
           <button
