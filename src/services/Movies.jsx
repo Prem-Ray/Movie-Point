@@ -660,7 +660,7 @@ export const movies = [
     url: "https://i.pinimg.com/736x/55/88/ac/5588ac45d9a8cdcd0d762499738fb9a4.jpg",
     description:
       "Pan‑India Telugu mytho‑fantasy starring Vishnu Manchu and Akshay Kumar—based on the folk legend of Kannappa, the hunter‑devotee of Lord Shiva."
-  }
+  },
   
 
 
