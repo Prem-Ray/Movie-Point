@@ -35,10 +35,12 @@ export function NavBar() {
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link
+          draggable={false}
             to="/"
             className="group relative text-3xl font-extrabold transition-all duration-500 transform hover:scale-110"
           >
             <span
+            draggable={false}
               className={`relative z-10 bg-gradient-to-r ${
                 isScrolled
                   ? "from-white/90 via-gray-200/90 to-gray-400/90"
@@ -55,7 +57,7 @@ export function NavBar() {
 
         {/* Hamburger (Mobile) */}
         <div className="md:hidden z-50">
-          <button onClick={toggleMenu}>
+          <button onClick={toggleMenu} draggable={false}>
             {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
@@ -63,6 +65,7 @@ export function NavBar() {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-10">
           <Link
+          draggable={false}
             to="/"
             className={`relative px-6 py-3 ${
               isScrolled ? "text-gray-300/80" : "text-gray-300"
@@ -78,6 +81,7 @@ export function NavBar() {
           </Link>
 
           <Link
+          draggable={false}
             to="/favourites"
             className={`relative px-6 py-3 ${
               isScrolled ? "text-gray-300/80" : "text-gray-300"
@@ -108,6 +112,7 @@ export function NavBar() {
       {menuOpen && (
         <div className="md:hidden fixed top-[72px] left-0 w-full bg-black bg-opacity-95 backdrop-blur-md px-6 py-6 z-40 flex flex-col gap-4">
           <Link
+          draggable={false}
             to="/"
             onClick={() => setMenuOpen(false)}
             className="text-white text-lg hover:text-blue-300 transition"
@@ -115,6 +120,7 @@ export function NavBar() {
             Home
           </Link>
           <Link
+          draggable={false}
             to="/favourites"
             onClick={() => setMenuOpen(false)}
             className="text-white text-lg hover:text-blue-300 transition"

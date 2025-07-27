@@ -2,12 +2,11 @@ import React from "react";
 
 export function Nothing() {
   return (
-    <div className="col-span-full text-center mt-16 select-none">
-      <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 max-w-md mx-auto shadow-2xl">
-        <p className="text-gray-300 text-lg font-medium">
-          Oops! No movies match your search.
-        </p>
-      </div>
-    </div>
+    <div className="col-span-full flex flex-col items-center justify-center py-20 text-center">
+    <div className="text-6xl mb-4">🎬</div>
+    <h3 className="text-white text-xl font-semibold mb-2">Oops! No movies match your search.</h3>
+    <p className="text-gray-400">Try searching with different keywords</p>
+  </div>
+    
   );
 }

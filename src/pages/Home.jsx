@@ -425,7 +425,7 @@ export function Home() {
   }, [filteredMovies]);
 
   return (
-    <div className="Home w-full bg-black overflow-x-hidden">
+    <div className="Home w-full bg-black overflow-x-hidden" draggable={false}>
       <div className="relative z-10">
         <h1 className="select-none text-3xl sm:text-4xl md:text-5xl font-black text-center py-6 sm:py-8 text-white drop-shadow-2xl">
           Find Your Movies
@@ -439,12 +439,12 @@ export function Home() {
                 onChange={(e) => setSearchTerm(e.target.value)}
                 type="text"
                 placeholder="Search for movies..."
-                className="bg-gray-800 text-white placeholder-gray-500 rounded-lg p-3 w-full sm:mr-2 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:bg-gray-700 transition-all duration-300 border border-gray-700"
+                className="select-none bg-gray-800 text-white placeholder-gray-500 rounded-lg p-3 w-full sm:mr-2 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:bg-gray-700 transition-all duration-300 border border-gray-700"
               />
               <button
                 onClick={handleSearch}
                 type="submit"
-                className="bg-gray-800 text-white rounded-lg px-6 py-3 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-600 shadow-lg border border-gray-700 font-semibold"
+                className="select-none bg-gray-800 text-white rounded-lg px-6 py-3 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-600 shadow-lg border border-gray-700 font-semibold"
               >
                 Search
               </button>
@@ -452,20 +452,12 @@ export function Home() {
           </div>
         </div>
 
-        <div
-          className={`z-50 fixed cursor-move ${
+        {/* <div
+          className={`fixed top-[122px] right-[25px] z-50 w-[275px] h-[150px] ${
             show ? "block" : "hidden"
-          } w-full h-full max-w-[275px] max-h-[150px]`}
-          style={{
-            right: `${position.x}px`,
-            top: `${position.y}px`,
-          }}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
+          }`}
         >
-          <div className="relative w-[275px] h-[150px]">
+          <div className="relative w-full h-full">
             <img
               src="/tv.png"
               alt="tv"
@@ -477,9 +469,53 @@ export function Home() {
               autoPlay
               loop
               muted
-              className={`${
-                show ? "block" : "hidden"
-              } object-cover absolute top-[14px] left-[36px] w-[203px] h-[116px] -z-20 rounded-none`}
+              className="object-cover absolute top-[14px] left-[36px] w-[203px] h-[116px] -z-20 rounded-none"
+            >
+              <source src="/movie.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div> */}
+
+        {/* Mobile TV Section */}
+        <div className="block xl:hidden my-4 w-[240px] h-[130px] mx-auto">
+          <div className="relative w-full h-full">
+            <img
+              src="/tv.png"
+              alt="tv"
+              className="w-full h-full object-cover pointer-events-none select-none"
+              draggable={false}
+            />
+            <video
+              autoPlay
+              loop
+              muted
+              className="object-cover absolute top-[12px] left-[30px] w-[178px] h-[100px] -z-20"
+            >
+              <source src="/movie.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        {/* Only visible on desktop */}
+        <div
+          className={`absolute top-[40px] right-[15px] z-50 w-[275px] h-[150px] hidden xl:block ${
+            show ? "block" : "hidden"
+          }`}
+        >
+          <div className="relative w-full h-full">
+            <img
+              src="/tv.png"
+              alt="tv"
+              className="w-full h-full object-cover pointer-events-none select-none"
+             
+            />
+            <video
+              autoPlay
+              loop
+              muted
+              className="object-cover absolute top-[14px] left-[36px] w-[200px] h-[116px] -z-20"
             >
               <source src="/movie.mp4" type="video/mp4" />
               Your browser does not support the video tag.

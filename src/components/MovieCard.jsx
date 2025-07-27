@@ -25,7 +25,7 @@ export function MovieCard({ movie }) {
   return (
     <div className="movie-card w-full sm:w-[250px] md:w-[260px] bg-black rounded-2xl shadow-xl overflow-hidden text-white font-sans border border-gray-800 transition-transform hover:scale-105 duration-300 mx-auto">
       {/* Poster */}
-      <div className="movie-poster relative">
+      <div className="movie-poster relative select-none">
         <img
           src={
             movie.url ||
@@ -33,13 +33,13 @@ export function MovieCard({ movie }) {
           }
           alt={movie.title}
           draggable="false"
-          className="w-full h-[300px] object-cover rounded-t-2xl"
+          className="select-none w-full h-[300px] object-cover rounded-t-2xl"
         />
         {/* Favorite Icon Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/30 via-black/20 to-black/80 flex items-start justify-end p-3 pointer-events-none">
           <button
             onClick={onFavoriteClick}
-            className="bg-gray-900/60 hover:bg-gray-800/80 border border-gray-700 rounded-full p-2 cursor-pointer pointer-events-auto transition-all duration-300 hover:scale-110 shadow-lg"
+            className="select-none bg-gray-900/60 hover:bg-gray-800/80 border border-gray-700 rounded-full p-2 cursor-pointer pointer-events-auto transition-all duration-300 hover:scale-110 shadow-lg"
           >
             <FaHeart
               className={`w-6 h-6 ${
@@ -68,7 +68,7 @@ export function MovieCard({ movie }) {
                 ? movie.description
                 : `${movie.description.slice(0, 100)}...`}
               <button
-                className="ml-1 text-gray-300 hover:text-white underline text-xs bg-transparent border-none cursor-pointer transition-colors"
+                className="select-none ml-1 text-gray-300 hover:text-white underline text-xs bg-transparent border-none cursor-pointer transition-colors"
                 onClick={() => setMorebtn(!morebtn)}
               >
                 {morebtn ? "Show Less" : "Show More"}
