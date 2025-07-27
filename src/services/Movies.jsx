@@ -581,6 +581,86 @@ export const movies = [
       "Rajkummar Rao in a social‑justice narrative, supported by Manushi Chhillar—about power, corruption and moral awakening."
   },
 
+  {
+    id: 74,
+    title: "Thudarum",
+    release_date: "2025‑04‑25",
+    url: "https://i.pinimg.com/736x/14/49/7c/14497c74ce20887ac7f935cd881a6a5c.jpg",
+    description:
+      "Starring Mohanlal in a powerful Malayalam action‑drama, ‘Thudarum’ follows an ordinary taxi‑driver drawn into a criminal conspiracy; massive hit and one of Kerala’s top grossers in 2025."
+  },
+  {
+    id: 75,
+    title: "Kadhalikka Neramillai",
+    release_date: "2025‑01‑14",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ90X9CZ8Bh88ssFCyad6mEdBhhjibb-jmM-g&s",
+    description:
+      "A Tamil rom‑com directed by Kiruthiga Udhayanidhi starring Ravi Mohan and Nithya Menen, with music by AR Rahman—light‑hearted fun during Pongal season."
+  },
+  {
+    id: 76,
+    title: "Madarasi" ,
+    release_date: "2025‑09‑05",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObyZ51t9XTKyvpOfdPGmijl1aA6qwmFUvmQ&s",
+    description:
+      "A high‑budget Tamil action thriller by AR Murugadoss featuring Sivakarthikeyan, Vidyut Jammwal, and Rukmini Vasanth in a pan‑India release."
+  },
+  {
+    id: 77,
+    title: "Shivangi Lioness",
+    release_date: "2025‑03‑07",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkd2RciupfPDEXyXEqf4gtUnsbgkUcXwclgg&s",
+    description:
+      "Telugu drama thriller starring Anandhi and Varalaxmi Sarathkumar as a determined housewife in this murder‑mystery against social odds."
+  },
+  {
+    id: 78,
+    title: "Pothugadda",
+    release_date: "2025‑01‑30",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezlvImMb0PuVT6lUMoU7JPfmIguAtXPIIlA&s",
+    description:
+      "Telugu political drama about a couple caught in a violent political hijack; released on ETV Win, featuring ensemble cast led by Shatru and Aadukalam Naren."
+  },
+  {
+    id: 79,
+    title: "Idly Kadai",
+    release_date: "2025‑04‑10",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDGXu1EEz0RbYCGDp-NdkS2Fzhx6-ghH1TQ&s",
+    description:
+      "Tamil drama by Dhanush who also stars and produces; follows a caterer turned boxer‑coach in a story of resilience and community uplift."
+  },
+  {
+    id: 80,
+    title: "Lovely",
+    release_date: "2025‑05‑02",
+    url: "https://i.pinimg.com/236x/1c/eb/3b/1ceb3bf0a15afd97fd452a321f35275e.jpg",
+    description:
+      "Malayalam’s first hybrid live‑action 3D fantasy, featuring a man who befriends a talking housefly; whimsical, humorous and imaginative adventure."
+  },
+  {
+    id: 81,
+    title: "Tourist Family",
+    release_date: "2025‑05‑01",
+    url: "https://i.pinimg.com/474x/d1/3e/00/d13e00b23f9651ea8cc2ebeaf5ebd2ac.jpg",
+    description:
+      "Tamil family drama starring Simran and Sasikumar, about a Sri Lankan Tamil family posing as Malayalees to escape political crisis—deeply moving and realistic."
+  },
+  {
+    id: 82,
+    title: "Bazooka",
+    release_date: "2025‑04‑10",
+    url: "https://i.pinimg.com/736x/36/34/da/3634da527ddbe870de0f72703bede348.jpg",
+    description:
+      "Malayalam debut thriller by Deeno Dennis starring Mammootty; a cop and businessman use detailed mind‑games to trap a serial killer."
+  },
+  {
+    id: 83,
+    title: "Kannappa",
+    release_date: "2025‑06‑27",
+    url: "https://i.pinimg.com/736x/55/88/ac/5588ac45d9a8cdcd0d762499738fb9a4.jpg",
+    description:
+      "Pan‑India Telugu mytho‑fantasy starring Vishnu Manchu and Akshay Kumar—based on the folk legend of Kannappa, the hunter‑devotee of Lord Shiva."
+  }
   
 
 
