@@ -23,8 +23,8 @@ export function MovieCard({ movie }) {
   };
 
   return (
-    <div className="movie-card w-full sm:w-[250px] md:w-[260px] bg-black rounded-2xl shadow-xl overflow-hidden text-white font-sans border border-gray-800 transition-transform hover:scale-105 duration-300 mx-auto">
-      {/* Poster */}
+   <div className="w-full bg-slate-800 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+     {/* Poster */}
       <div className="movie-poster relative select-none">
         <img
           src={

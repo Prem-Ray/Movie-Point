@@ -18,12 +18,14 @@ export function Favourites() {
                 <MovieCard movie={movie} key={movie.id} />
               ))
             ) : (
-              <div className="col-span-full text-center mt-16 select-none">
-                <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 max-w-md mx-auto shadow-2xl">
-                  <p className="text-gray-300 text-lg font-medium">
-                    No more favourites.
-                  </p>
-                </div>
+              <div className="select-none col-span-full flex flex-col items-center justify-center py-20 text-center">
+                <div className="text-6xl mb-4">🥴</div>
+                <h3 className="text-white text-xl font-semibold mb-2">
+                  No Favorites Yet!
+                </h3>
+                <p className="text-gray-400">
+                  Start adding movies to build your collection.
+                </p>
               </div>
             )}
           </div>
@@ -33,15 +35,14 @@ export function Favourites() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-      <div className="text-center p-8 bg-gray-800/30 backdrop-blur-md border border-gray-700/30 rounded-3xl shadow-2xl max-w-lg mx-4">
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent mb-4">
-          No Favourite Movies Yet
-        </h1>
-        <p className="text-gray-300 text-lg font-medium leading-relaxed">
-          Add movies to your favourites list to see them here.
-        </p>
-      </div>
-    </div>
+    <div className="select-none col-span-full flex flex-col items-center justify-center py-20 text-center">
+                <div className="text-6xl mb-4">🥴</div>
+                <h3 className="text-white text-xl font-semibold mb-2">
+                  No Favorites Yet!
+                </h3>
+                <p className="text-gray-400">
+                  Start adding movies to build your collection.
+                </p>
+              </div>
   );
 }

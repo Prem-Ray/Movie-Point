@@ -12,7 +12,7 @@ function App() {
       <NavBar />
 
       {/* Main layout wrapper */}
-      <main className="App min-h-screen w-full overflow-x-hidden text-white px-2 sm:px-4 md:px-6">
+      <main className="App min-h-screen w-full overflow-x-hidden text-white">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favourites" element={<Favourites />} />

@@ -498,15 +498,16 @@ export function Home() {
           </div>
         </div>
 
-        <div className="movies-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6 p-4 sm:p-6">
-          {filteredMovies.length > 0 ? (
-            filteredMovies.map((movie) => (
-              <MovieCard movie={movie} key={movie.id} />
-            ))
-          ) : (
-            <Nothing />
-          )}
-        </div>
+        <div className="movies-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4 sm:gap-6 sm:p-6 w-full">
+  {filteredMovies.length > 0 ? (
+    filteredMovies.map((movie) => (
+      <MovieCard movie={movie} key={movie.id} />
+    ))
+  ) : (
+    <Nothing />
+  )}
+</div>
+
       </div>
     </div>
   );
