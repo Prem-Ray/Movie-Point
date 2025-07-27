@@ -452,31 +452,6 @@ export function Home() {
           </div>
         </div>
 
-        {/* <div
-          className={`fixed top-[122px] right-[25px] z-50 w-[275px] h-[150px] ${
-            show ? "block" : "hidden"
-          }`}
-        >
-          <div className="relative w-full h-full">
-            <img
-              src="/tv.png"
-              alt="tv"
-              className="w-full h-full object-cover pointer-events-none select-none"
-              draggable={false}
-            />
-
-            <video
-              autoPlay
-              loop
-              muted
-              className="object-cover absolute top-[14px] left-[36px] w-[203px] h-[116px] -z-20 rounded-none"
-            >
-              <source src="/movie.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div> */}
-
         {/* Mobile TV Section */}
         <div className="block xl:hidden my-4 w-[240px] h-[130px] mx-auto">
           <div className="relative w-full h-full">
