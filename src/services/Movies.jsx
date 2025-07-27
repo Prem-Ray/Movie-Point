@@ -369,7 +369,16 @@ export const movies = [
   url: "https://glamsham.com/wp-content/uploads/2025/07/AHAN-PANDAYS-SAIYAAARA-SOARS-Film-Collects-Rs-105.75-Crore-in-Just-4-Days.jpg",
   description:
     "Directed by Mohit Suri under Yash Raj Films, 'Saiyaara' introduces Ahaan Panday and Aneet Padda in an emotional musical romance about love, memory, and destiny. It opened to record-breaking box‑office for debutants and became one of 2025’s biggest hits.",
+},
+{
+  id: 47,
+  title: "Khaddan",
+  release_date: "2024-12-20",
+  url: "https://i.pinimg.com/736x/bc/5e/3c/bc5e3c68c4b51ef319c7ff0f8a79897f.jpg",
+  description:
+    "A gritty Bengali action‑thriller set in the coalfields of Damodar Valley, 'Khaddan' (Khadaan) stars Dev in dual roles and Jisshu Sengupta as his complex ally and adversary. Directed by Soojit Dutta, it chronicles ambition, betrayal, and power in a dramatic rise of two friends turned mining lords.",
 }
+
 
 
   ];
