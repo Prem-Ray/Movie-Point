@@ -377,7 +377,14 @@ export const movies = [
   url: "https://i.pinimg.com/736x/bc/5e/3c/bc5e3c68c4b51ef319c7ff0f8a79897f.jpg",
   description:
     "A gritty Bengali action‑thriller set in the coalfields of Damodar Valley, 'Khaddan' (Khadaan) stars Dev in dual roles and Jisshu Sengupta as his complex ally and adversary. Directed by Soojit Dutta, it chronicles ambition, betrayal, and power in a dramatic rise of two friends turned mining lords.",
-}
+},
+{
+    id: 48,
+    title: "Hridayam",
+    release_date: "2022-01-21",
+    url: "https://i.pinimg.com/originals/4f/cf/62/4fcf62c1200e7adfdb1344535967766f.jpg?nii=t",
+    description: "A heartfelt coming‑of‑age Malayalam romantic drama, 'Hridayam' follows Arun's transformative journey from carefree college days to adulthood, shaped by love, mistakes, music and self‑discovery."
+  }
 
 
 
