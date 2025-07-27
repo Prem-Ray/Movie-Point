@@ -27,6 +27,7 @@ export function MovieCard({ movie }) {
      {/* Poster */}
       <div className="movie-poster relative select-none">
         <img
+        loading="lazy"
           src={
             movie.url ||
             `https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg`
