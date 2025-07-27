@@ -498,7 +498,90 @@ export const movies = [
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoBmHTC_xiWuj0JCJDQJds5ljeqtEGLHAMw&s",
     description:
       "A Lionsgate action thriller about covert ops featuring a multinational cast—espionage, intense combat scenes, but underwhelming box office."
-  }
+  },
+  {
+    id: 64,
+    title: "Chhaava",
+    release_date: "2025‑??‑??",
+    url: "https://i.pinimg.com/236x/85/c9/49/85c949e6aa2cd8deee4eb5a65695b961.jpg",
+    description:
+      "A historical drama on Chhatrapati Sambhaji Maharaj starring Vicky Kaushal, Rashmika Mandanna and Divya Dutta—exploring valor, sacrifice and Maratha heritage."
+  },
+
+  {
+    id: 65,
+    title: "Sikandar",
+    release_date: "2025‑03‑30",
+    url: "https://i.pinimg.com/736x/f3/4d/50/f34d5093817e63a7e09c91f8b0511561.jpg",
+    description:
+      "A patriotic action drama featuring Salman Khan in dual role with Rashmika Mandanna and Sanjay Dutt—fighting for justice in his village."
+  },
+  {
+    id: 66,
+    title: "Alpha",
+    release_date: "2025‑12‑25",
+    url: "https://i.pinimg.com/736x/f8/c2/ec/f8c2ec80a67071e260f1b420d147ad22.jpg",
+    description:
+      "Sci‑fi thriller starring Alia Bhatt, Bobby Deol and Sharvari—set in a dystopian future where AI ethics and human survival collide."
+  },
+  {
+    id: 67,
+    title: "Emergency",
+    release_date: "2025‑01‑17",
+    url: "https://wishesh.com/images/articles/Reviews/Emergency-Movie-Review.jpg",
+    description:
+      "Directed and led by Kangana Ranaut as Indira Gandhi, this gripping political drama retraces India’s Emergency era of 1975."
+  },
+  {
+    id: 68,
+    title: "Azaad",
+    release_date: "2025‑01‑17",
+    url: "https://i.pinimg.com/736x/1b/11/09/1b1109a0679112b4108840dc9687f565.jpg",
+    description:
+      "Adventure‑historical tale of a stable boy and his spirited horse, starring Ajay Devgn, Aaman Devgn and Rasha Thadani."
+  },
+  {
+    id: 69,
+    title: "Sky Force",
+    release_date: "2025‑01‑24",
+    url: "https://resizing.flixster.com/bgtJAEzQqnPukxq1Z3gnYM7_L0s=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29237389_k_v9_ab.jpg",
+    description:
+      "Patriotic action drama starring Akshay Kumar in aerial combat and courage aboard Indian Air Force missions."
+  },
+  {
+    id: 70,
+    title: "Sitaare Zameen Par",
+    release_date: "2025‑08‑01",
+    url: "https://i.pinimg.com/736x/cb/5a/c5/cb5ac53328058c60e671854b55c269aa.jpg",
+    description:
+      "Aamir Khan returns with a moving drama about mentorship and rediscovery of passion, alongside Fatima Sana Shaikh."
+  },
+  {
+    id: 71,
+    title: "Murderbaad",
+    release_date: "2025‑07‑18",
+    url: "https://assets.gadgets360cdn.com/pricee/assets/product/202506/Murderbaad_1_1750921141.jpg?downsize=400:*",
+    description:
+      "A gritty crime‑thriller starring Nakul Roshan Sahdev and Kanikka Kapoor, exploring dark secrets and vengeance."
+  },
+  {
+    id: 72,
+    title: "Nikita Roy",
+    release_date: "2025‑07‑18",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcBueqdX7XqmTJ6KqfiPCEspUK4VUXJp2OA&s",
+    description:
+      "Ensemble drama featuring Sonakshi Sinha, Paresh Rawal and Arjun Rampal—amid socio‑political unrest and personal conflict."
+  },
+  {
+    id: 73,
+    title: "Maalik",
+    release_date: "2025‑07‑11",
+    url: "https://i.pinimg.com/736x/b6/10/5d/b6105d2d24878a8fdcbc88d6cf08fe59.jpg",
+    description:
+      "Rajkummar Rao in a social‑justice narrative, supported by Manushi Chhillar—about power, corruption and moral awakening."
+  },
+
+  
 
 
 
