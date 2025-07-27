@@ -1,16 +1,18 @@
 import React from "react";
 import { Home } from "./pages/Home";
-import { Routes, Route } from "react-router";
 import { Favourites } from "./pages/Favourites";
 import { NavBar } from "./components/NavBar";
-import { useState } from "react";
+import { Routes, Route } from "react-router";
 import { MovieProvider } from "./context/MovieContext";
 
 function App() {
   return (
     <MovieProvider>
+      {/* Responsive navigation bar */}
       <NavBar />
-      <main className="App  min-h-screen bg-[#212121] text-white">
+
+      {/* Main layout wrapper */}
+      <main className="App min-h-screen w-full overflow-x-hidden text-white px-2 sm:px-4 md:px-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favourites" element={<Favourites />} />

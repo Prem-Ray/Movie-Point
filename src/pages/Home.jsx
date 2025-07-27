@@ -425,26 +425,26 @@ export function Home() {
   }, [filteredMovies]);
 
   return (
-    <div className="Home relative min-h-screen bg-black">
+    <div className="Home w-full bg-black overflow-x-hidden">
       <div className="relative z-10">
-        <h1 className="select-none text-5xl font-black text-center py-8 text-white drop-shadow-2xl">
+        <h1 className="select-none text-3xl sm:text-4xl md:text-5xl font-black text-center py-6 sm:py-8 text-white drop-shadow-2xl">
           Find Your Movies
         </h1>
 
-        <div className="search-form flex justify-center items-center mb-8 px-4">
-          <div className="relative w-full max-w-2xl">
-            <div className="bg-gray-900 border border-gray-800 rounded-xl p-1 flex items-center shadow-2xl">
+        <div className="search-form flex justify-center items-center mb-6 sm:mb-8 px-4">
+          <div className="relative w-full max-w-xl sm:max-w-2xl">
+            <div className="bg-gray-900 border border-gray-800 rounded-xl p-1 flex flex-col sm:flex-row gap-2 sm:gap-0 items-stretch sm:items-center shadow-2xl">
               <input
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 type="text"
                 placeholder="Search for movies..."
-                className="search-input bg-gray-800 text-white placeholder-gray-500 rounded-lg p-4 w-full mr-2 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:bg-gray-700 transition-all duration-300 border border-gray-700"
+                className="bg-gray-800 text-white placeholder-gray-500 rounded-lg p-3 w-full sm:mr-2 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:bg-gray-700 transition-all duration-300 border border-gray-700"
               />
               <button
                 onClick={handleSearch}
                 type="submit"
-                className="search-button bg-gray-800 text-white rounded-lg px-6 py-4 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-600 shadow-lg border border-gray-700 font-semibold"
+                className="bg-gray-800 text-white rounded-lg px-6 py-3 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-600 shadow-lg border border-gray-700 font-semibold"
               >
                 Search
               </button>
@@ -453,34 +453,41 @@ export function Home() {
         </div>
 
         <div
-          className="z-50 fixed cursor-move"
+          className={`z-50 fixed cursor-move ${
+            show ? "block" : "hidden"
+          } w-full h-full max-w-[275px] max-h-[150px]`}
           style={{
             right: `${position.x}px`,
             top: `${position.y}px`,
-            width: "240px",
-            height: "300px",
           }}
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
           onMouseLeave={handleMouseUp}
         >
-          <video
-            width="240"
-            height="300"
-            autoPlay
-            loop
-            muted
-            className={`${
-              show ? "block" : "hidden"
-            } w-full h-full rounded shadow`}
-          >
-            <source src="/movie.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <div className="relative w-[275px] h-[150px]">
+            <img
+              src="/tv.png"
+              alt="tv"
+              className="w-full h-full object-cover pointer-events-none select-none"
+              draggable={false}
+            />
+
+            <video
+              autoPlay
+              loop
+              muted
+              className={`${
+                show ? "block" : "hidden"
+              } object-cover absolute top-[14px] left-[36px] w-[203px] h-[116px] -z-20 rounded-none`}
+            >
+              <source src="/movie.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
 
-        <div className="movies-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 p-6">
+        <div className="movies-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6 p-4 sm:p-6">
           {filteredMovies.length > 0 ? (
             filteredMovies.map((movie) => (
               <MovieCard movie={movie} key={movie.id} />
