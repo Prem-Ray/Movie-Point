@@ -21,7 +21,7 @@ export function Favourites() {
               <div className="select-none col-span-full flex flex-col items-center justify-center py-20 text-center">
                 <div className="text-6xl mb-4">🥴</div>
                 <h3 className="text-white text-xl font-semibold mb-2">
-                  No Favorites Yet!
+                  No Favourites Yet!
                 </h3>
                 <p className="text-gray-400">
                   Start adding movies to build your collection.
@@ -36,13 +36,13 @@ export function Favourites() {
 
   return (
     <div className="select-none col-span-full flex flex-col items-center justify-center py-20 text-center">
-                <div className="text-6xl mb-4">🥴</div>
-                <h3 className="text-white text-xl font-semibold mb-2">
-                  No Favorites Yet!
-                </h3>
-                <p className="text-gray-400">
-                  Start adding movies to build your collection.
-                </p>
-              </div>
+      <div className="text-6xl mb-4">🥴</div>
+      <h3 className="text-white text-xl font-semibold mb-2">
+        No Favorites Yet!
+      </h3>
+      <p className="text-gray-400">
+        Start adding movies to build your collection.
+      </p>
+    </div>
   );
 }
