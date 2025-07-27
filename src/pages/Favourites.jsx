@@ -7,7 +7,7 @@ export function Favourites() {
 
   if (favourites) {
     return (
-      <div className="favourites-page bg-gradient-to-br from-slate-900 via-gray-900 to-black min-h-screen p-6">
+      <div className="favourites-page bg-black shadow-2xl min-h-screen p-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="select-none text-4xl font-bold mb-8 text-center mt-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
             Explore Your Collection
