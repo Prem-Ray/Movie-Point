@@ -362,4 +362,14 @@ export const movies = [
       description:
         "A middle-class man balances his love life and family responsibilities, only to find that both worlds are deeply connected. 'Family Star' blends romance and emotion with moments of charm and heartache.",
     },
+    {
+  id: 46,
+  title: "Saiyaara",
+  release_date: "2025-07-18",
+  url: "https://glamsham.com/wp-content/uploads/2025/07/AHAN-PANDAYS-SAIYAAARA-SOARS-Film-Collects-Rs-105.75-Crore-in-Just-4-Days.jpg",
+  description:
+    "Directed by Mohit Suri under Yash Raj Films, 'Saiyaara' introduces Ahaan Panday and Aneet Padda in an emotional musical romance about love, memory, and destiny. It opened to record-breaking box‑office for debutants and became one of 2025’s biggest hits.",
+}
+
+
   ];
