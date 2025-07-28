@@ -460,7 +460,7 @@ export const movies = [
   },
 
   {
-    id: 59,
+    id: 58,
     title: "Civil War",
     release_date: "2024-04-12",
     url: "https://i.pinimg.com/736x/7d/ff/3b/7dff3b26a7d32d67106da55b93067f12.jpg",
@@ -468,7 +468,7 @@ export const movies = [
       "A dystopian action‑thriller by Alex Garland depicting a U.S. civil war through the eyes of war correspondents traversing ravaged cities."
   },
   {
-    id: 60,
+    id: 59,
     title: "Warfare",
     release_date: "2025-04-09",
     url: "https://i.pinimg.com/736x/77/53/2b/77532ba166fe8c7c0fa22ef38127fca6.jpg",
@@ -476,7 +476,7 @@ export const movies = [
       "An unflinching portrayal of a botched U.S. Navy SEAL operation in Iraq—claustrophobic, minimalistic, and grounded in real military detail."
   },
   {
-    id: 61,
+    id: 60,
     title: "The Six Triple Eight",
     release_date: "2024-12-06",
     url: "https://savethecat.com/wp-content/uploads/2025/06/blog-page.jpg",
@@ -484,7 +484,7 @@ export const movies = [
       "World War II drama about the 6888th Central Postal Directory Battalion—the all-African‑American, all-female unit behind Allied communication logistics."
   },
   {
-    id: 62,
+    id: 61,
     title: "The Ministry of Ungentlemanly Warfare",
     release_date: "2024-04-19",
     url: "https://i0.wp.com/the-past.com/wp-content/uploads/2024/09/post-1_image0-13.jpg?w=1230&ssl=1",
@@ -492,7 +492,7 @@ export const movies = [
       "Guy Ritchie’s stylized tribute to Churchill’s secret SOE operatives during WWII, starring Henry Cavill and Henry Golding."
   },
   {
-    id: 63,
+    id: 62,
     title: "Shadow Force",
     release_date: "2025-05-09",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoBmHTC_xiWuj0JCJDQJds5ljeqtEGLHAMw&s",
@@ -500,7 +500,7 @@ export const movies = [
       "A Lionsgate action thriller about covert ops featuring a multinational cast—espionage, intense combat scenes, but underwhelming box office."
   },
   {
-    id: 64,
+    id: 63,
     title: "Chhaava",
     release_date: "2025‑??‑??",
     url: "https://i.pinimg.com/236x/85/c9/49/85c949e6aa2cd8deee4eb5a65695b961.jpg",
@@ -509,7 +509,7 @@ export const movies = [
   },
 
   {
-    id: 65,
+    id: 64,
     title: "Sikandar",
     release_date: "2025‑03‑30",
     url: "https://i.pinimg.com/736x/f3/4d/50/f34d5093817e63a7e09c91f8b0511561.jpg",
@@ -517,7 +517,7 @@ export const movies = [
       "A patriotic action drama featuring Salman Khan in dual role with Rashmika Mandanna and Sanjay Dutt—fighting for justice in his village."
   },
   {
-    id: 66,
+    id: 65,
     title: "Alpha",
     release_date: "2025‑12‑25",
     url: "https://i.pinimg.com/736x/f8/c2/ec/f8c2ec80a67071e260f1b420d147ad22.jpg",
@@ -525,7 +525,7 @@ export const movies = [
       "Sci‑fi thriller starring Alia Bhatt, Bobby Deol and Sharvari—set in a dystopian future where AI ethics and human survival collide."
   },
   {
-    id: 67,
+    id: 66,
     title: "Emergency",
     release_date: "2025‑01‑17",
     url: "https://wishesh.com/images/articles/Reviews/Emergency-Movie-Review.jpg",
@@ -533,7 +533,7 @@ export const movies = [
       "Directed and led by Kangana Ranaut as Indira Gandhi, this gripping political drama retraces India’s Emergency era of 1975."
   },
   {
-    id: 68,
+    id: 67,
     title: "Azaad",
     release_date: "2025‑01‑17",
     url: "https://i.pinimg.com/736x/1b/11/09/1b1109a0679112b4108840dc9687f565.jpg",
@@ -541,7 +541,7 @@ export const movies = [
       "Adventure‑historical tale of a stable boy and his spirited horse, starring Ajay Devgn, Aaman Devgn and Rasha Thadani."
   },
   {
-    id: 69,
+    id: 68,
     title: "Sky Force",
     release_date: "2025‑01‑24",
     url: "https://resizing.flixster.com/bgtJAEzQqnPukxq1Z3gnYM7_L0s=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29237389_k_v9_ab.jpg",
@@ -549,7 +549,7 @@ export const movies = [
       "Patriotic action drama starring Akshay Kumar in aerial combat and courage aboard Indian Air Force missions."
   },
   {
-    id: 70,
+    id: 69,
     title: "Sitaare Zameen Par",
     release_date: "2025‑08‑01",
     url: "https://i.pinimg.com/736x/cb/5a/c5/cb5ac53328058c60e671854b55c269aa.jpg",
@@ -557,7 +557,7 @@ export const movies = [
       "Aamir Khan returns with a moving drama about mentorship and rediscovery of passion, alongside Fatima Sana Shaikh."
   },
   {
-    id: 71,
+    id: 70,
     title: "Murderbaad",
     release_date: "2025‑07‑18",
     url: "https://assets.gadgets360cdn.com/pricee/assets/product/202506/Murderbaad_1_1750921141.jpg?downsize=400:*",
@@ -565,7 +565,7 @@ export const movies = [
       "A gritty crime‑thriller starring Nakul Roshan Sahdev and Kanikka Kapoor, exploring dark secrets and vengeance."
   },
   {
-    id: 72,
+    id: 71,
     title: "Nikita Roy",
     release_date: "2025‑07‑18",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcBueqdX7XqmTJ6KqfiPCEspUK4VUXJp2OA&s",
@@ -573,7 +573,7 @@ export const movies = [
       "Ensemble drama featuring Sonakshi Sinha, Paresh Rawal and Arjun Rampal—amid socio‑political unrest and personal conflict."
   },
   {
-    id: 73,
+    id: 72,
     title: "Maalik",
     release_date: "2025‑07‑11",
     url: "https://i.pinimg.com/736x/b6/10/5d/b6105d2d24878a8fdcbc88d6cf08fe59.jpg",
@@ -582,7 +582,7 @@ export const movies = [
   },
 
   {
-    id: 74,
+    id: 73,
     title: "Thudarum",
     release_date: "2025‑04‑25",
     url: "https://i.pinimg.com/736x/14/49/7c/14497c74ce20887ac7f935cd881a6a5c.jpg",
@@ -590,7 +590,7 @@ export const movies = [
       "Starring Mohanlal in a powerful Malayalam action‑drama, ‘Thudarum’ follows an ordinary taxi‑driver drawn into a criminal conspiracy; massive hit and one of Kerala’s top grossers in 2025."
   },
   {
-    id: 75,
+    id: 74,
     title: "Kadhalikka Neramillai",
     release_date: "2025‑01‑14",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ90X9CZ8Bh88ssFCyad6mEdBhhjibb-jmM-g&s",
@@ -598,7 +598,7 @@ export const movies = [
       "A Tamil rom‑com directed by Kiruthiga Udhayanidhi starring Ravi Mohan and Nithya Menen, with music by AR Rahman—light‑hearted fun during Pongal season."
   },
   {
-    id: 76,
+    id: 75,
     title: "Madarasi" ,
     release_date: "2025‑09‑05",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObyZ51t9XTKyvpOfdPGmijl1aA6qwmFUvmQ&s",
@@ -606,7 +606,7 @@ export const movies = [
       "A high‑budget Tamil action thriller by AR Murugadoss featuring Sivakarthikeyan, Vidyut Jammwal, and Rukmini Vasanth in a pan‑India release."
   },
   {
-    id: 77,
+    id: 76,
     title: "Shivangi Lioness",
     release_date: "2025‑03‑07",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkd2RciupfPDEXyXEqf4gtUnsbgkUcXwclgg&s",
@@ -614,7 +614,7 @@ export const movies = [
       "Telugu drama thriller starring Anandhi and Varalaxmi Sarathkumar as a determined housewife in this murder‑mystery against social odds."
   },
   {
-    id: 78,
+    id: 77,
     title: "Pothugadda",
     release_date: "2025‑01‑30",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezlvImMb0PuVT6lUMoU7JPfmIguAtXPIIlA&s",
@@ -622,7 +622,7 @@ export const movies = [
       "Telugu political drama about a couple caught in a violent political hijack; released on ETV Win, featuring ensemble cast led by Shatru and Aadukalam Naren."
   },
   {
-    id: 79,
+    id: 78,
     title: "Idly Kadai",
     release_date: "2025‑04‑10",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDGXu1EEz0RbYCGDp-NdkS2Fzhx6-ghH1TQ&s",
@@ -630,7 +630,7 @@ export const movies = [
       "Tamil drama by Dhanush who also stars and produces; follows a caterer turned boxer‑coach in a story of resilience and community uplift."
   },
   {
-    id: 80,
+    id: 79,
     title: "Lovely",
     release_date: "2025‑05‑02",
     url: "https://i.pinimg.com/236x/1c/eb/3b/1ceb3bf0a15afd97fd452a321f35275e.jpg",
@@ -638,7 +638,7 @@ export const movies = [
       "Malayalam’s first hybrid live‑action 3D fantasy, featuring a man who befriends a talking housefly; whimsical, humorous and imaginative adventure."
   },
   {
-    id: 81,
+    id: 80,
     title: "Tourist Family",
     release_date: "2025‑05‑01",
     url: "https://i.pinimg.com/474x/d1/3e/00/d13e00b23f9651ea8cc2ebeaf5ebd2ac.jpg",
@@ -646,7 +646,7 @@ export const movies = [
       "Tamil family drama starring Simran and Sasikumar, about a Sri Lankan Tamil family posing as Malayalees to escape political crisis—deeply moving and realistic."
   },
   {
-    id: 82,
+    id: 81,
     title: "Bazooka",
     release_date: "2025‑04‑10",
     url: "https://i.pinimg.com/736x/36/34/da/3634da527ddbe870de0f72703bede348.jpg",
