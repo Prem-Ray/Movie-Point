@@ -220,14 +220,6 @@ export const movies = [
     },
     {
       id: 28,
-      title: "Bholaa",
-      release_date: "2023-03-30",
-      url: "https://i.pinimg.com/564x/94/3b/6e/943b6efa44ddbfa179e72e40fc417e34.jpg",
-      description:
-        "A former convict on a mission to reunite with his daughter ends up saving police officers from a drug cartel. Bholaa is a spiritual action drama inspired by Shiva’s fury, determination, and divine force.",
-    },
-    {
-      id: 29,
       title: "The Kerala Story",
       release_date: "2023-05-05",
       url: "https://i.pinimg.com/736x/88/be/fe/88befe0a0fde5e484db2dc08ff0977b8.jpg",
@@ -235,7 +227,7 @@ export const movies = [
         "Based on true events, the film tells the story of women trapped in a radicalization scheme and their transformation. The Kerala Story is a bold, controversial narrative about identity, manipulation, and escape.",
     },
     {
-      id: 30,
+      id: 29,
       title: "Maaveeran",
       release_date: "2023-07-14",
       url: "https://i.pinimg.com/736x/f4/82/7f/f4827f1749e4bd941c623d6f950087ef.jpg",
@@ -243,7 +235,7 @@ export const movies = [
         "A timid cartoonist starts hearing a voice that guides him toward becoming a fearless savior of his community. Maaveeran is a gripping tale of inner courage, resistance, and standing up against corruption.",
     },
     {
-      id: 31,
+      id: 30,
       title: "Mark Antony",
       release_date: "2023-09-15",
       url: "https://i.pinimg.com/736x/96/c5/74/96c57478be477eaed6e3f0b84502fa3b.jpg",
@@ -251,7 +243,7 @@ export const movies = [
         "In a retro-futuristic gangster world, a phone allows its users to change the past. Mark Antony is a quirky, time-travel action film filled with chaos, guns, and unpredictable twists.",
     },
     {
-      id: 32,
+      id: 31,
       title: "Vaathi",
       release_date: "2023-02-17",
       url: "https://i.pinimg.com/236x/88/eb/e8/88ebe82549adc32855637e6a3f59c27d.jpg",
@@ -259,7 +251,7 @@ export const movies = [
         "A young teacher fights against privatization in the education system. Vaathi is a socially driven drama about reform, resistance, and the power of one teacher’s passion to change lives.",
     },
     {
-      id: 33,
+      id: 32,
       title: "Viduthalai Part 1",
       release_date: "2023-03-31",
       url: "https://i.pinimg.com/736x/5e/c1/77/5ec177c368af041ddf5834a22e0a7803.jpg",
@@ -267,7 +259,7 @@ export const movies = [
         "A police recruit uncovers the dark side of law enforcement while chasing a rebel leader. Viduthalai is a gritty political drama exploring freedom, morality, and systemic abuse.",
     },
     {
-      id: 34,
+      id: 33,
       title: "Thunivu",
       release_date: "2023-01-11",
       url: "https://i.pinimg.com/736x/1c/24/b2/1c24b256d8e862c704b0da3a1ed5f078.jpg",
@@ -275,7 +267,7 @@ export const movies = [
         "A group of criminals rob a bank, but their plan is hijacked by a mysterious man with a mission. Thunivu is a heist thriller filled with suspense, action, and hidden motives.",
     },
     {
-      id: 35,
+      id: 34,
       title: "Dasara",
       release_date: "2023-03-30",
       url: "https://i.pinimg.com/736x/74/58/90/745890648bb43926221274634c96b219.jpg",
@@ -283,7 +275,7 @@ export const movies = [
         "Set in a coal mining village, Dasara is the tale of a man who fights against injustice and alcoholism. A raw and emotional drama blending folklore, friendship, and fury.",
     },
     {
-      id: 36,
+      id: 35,
       title: "Custody",
       release_date: "2023-05-12",
       url: "https://i.pinimg.com/736x/2c/ce/8d/2cce8d5fdf5b38652ab5f9d70273bcaa.jpg",
@@ -291,7 +283,7 @@ export const movies = [
         "A constable finds himself protecting a key witness in a politically explosive case. Custody is a fast-paced action thriller about survival, loyalty, and uncovering buried truths.",
     },
     {
-      id: 37,
+      id: 36,
       title: "Gaslight",
       release_date: "2023-03-31",
       url: "https://i.pinimg.com/474x/9c/50/5a/9c505ac3423606e456a0d75611552298.jpg",
@@ -299,7 +291,7 @@ export const movies = [
         "A woman returns to her ancestral palace, only to suspect foul play in her father's mysterious absence. As she uncovers hidden secrets, she is manipulated by those around her, questioning her sanity in a twisted psychological thriller where nothing is what it seems.",
     },
     {
-      id: 38,
+      id: 37,
       title: "Salaar: Part 1 – Ceasefire",
       release_date: "2023-12-22",
       url: "https://i.pinimg.com/736x/64/62/ba/6462ba3a6d249bd836a3bc5840102bfc.jpg",
@@ -307,7 +299,7 @@ export const movies = [
         "From the makers of KGF, Salaar follows a violent hero who returns to protect a kingdom in chaos. This mass action drama is loaded with intensity, betrayal, and breathtaking scale.",
     },
     {
-      id: 39,
+      id: 38,
       title: "Guntur Kaaram",
       release_date: "2024-01-12",
       url: "https://i.pinimg.com/736x/6f/f8/cf/6ff8cfe4798b01c566252322ab4d76bb.jpg",
@@ -315,7 +307,7 @@ export const movies = [
         "Mahesh Babu stars in this fiery drama about family, politics, and personal vengeance. Guntur Kaaram combines local flavor with action-packed storytelling and emotional resonance.",
     },
     {
-      id: 40,
+      id: 39,
       title: "Captain Miller",
       release_date: "2023-12-15",
       url: "https://i.pinimg.com/736x/ff/5d/22/ff5d2218f0470c1dae8c816cc47f8e94.jpg",
@@ -323,7 +315,7 @@ export const movies = [
         "Set in pre-independence India, a rebel leader fights colonial powers with guerrilla tactics. Captain Miller is a period action drama about bravery, rebellion, and sacrifice.",
     },
     {
-      id: 41,
+      id: 40,
       title: "Jersey",
       release_date: "2022-04-22",
       url: "https://i.pinimg.com/originals/61/fd/ac/61fdac34a3c1ec89cdd31a3c0347b7a8.jpg",
@@ -331,7 +323,7 @@ export const movies = [
         "A once-promising cricketer battles age, personal struggles, and societal pressure as he makes an inspiring comeback for his son. Jersey is an emotional sports drama about dreams, redemption, and fatherhood.",
     },
     {
-      id: 42,
+      id: 41,
       title: "Mahanati",
       release_date: "2018-05-09",
       url: "https://i.pinimg.com/736x/ee/51/95/ee5195bef8b68e3678d2246933994732.jpg",
@@ -339,7 +331,7 @@ export const movies = [
         "A poignant retelling of the life of legendary South Indian actress Savitri. 'Mahanati' is a powerful biopic celebrating her stardom, struggles, and timeless legacy in Indian cinema.",
     },
     {
-      id: 43,
+      id: 42,
       title: "The Flash",
       release_date: "2023-06-14",
       url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQe9W5865ljiH5jTnrkkPGhWuyLjFk-C4XrQ&s",
@@ -347,7 +339,7 @@ export const movies = [
         "Barry Allen uses his super speed to change the past, but his actions create unintended consequences in the multiverse. As he teams up with alternate versions of heroes to set things right, he must face emotional challenges, alternate timelines, and a powerful enemy that threatens the fabric of reality.",
     },
     {
-      id: 44,
+      id: 43,
       title: "Thug Life",
       release_date: "2024-12-20",
       url: "https://i.pinimg.com/736x/ff/3e/46/ff3e4606b4b90a1f5003f068d3e8bd79.jpg",
@@ -355,7 +347,7 @@ export const movies = [
         "In a gritty underworld ruled by fear and betrayal, one man rises to reclaim his identity and rewrite the rules. 'Thug Life' is an intense crime saga directed by Mani Ratnam and led by Kamal Haasan.",
     },
     {
-      id: 45,
+      id: 44,
       title: "Family Star",
       release_date: "2024-04-05",
       url: "https://www.sakshi.com/gallery_images/2024/04/2/Tollywood%20Hero%20Vijay%20Devarakonda%20Family%20star%20HD%20Stills-7.jpg",
@@ -363,7 +355,7 @@ export const movies = [
         "A middle-class man balances his love life and family responsibilities, only to find that both worlds are deeply connected. 'Family Star' blends romance and emotion with moments of charm and heartache.",
     },
     {
-  id: 46,
+  id: 45,
   title: "Saiyaara",
   release_date: "2025-07-18",
   url: "https://glamsham.com/wp-content/uploads/2025/07/AHAN-PANDAYS-SAIYAAARA-SOARS-Film-Collects-Rs-105.75-Crore-in-Just-4-Days.jpg",
@@ -371,7 +363,7 @@ export const movies = [
     "Directed by Mohit Suri under Yash Raj Films, 'Saiyaara' introduces Ahaan Panday and Aneet Padda in an emotional musical romance about love, memory, and destiny. It opened to record-breaking box‑office for debutants and became one of 2025’s biggest hits.",
 },
 {
-  id: 47,
+  id: 46,
   title: "Khaddan",
   release_date: "2024-12-20",
   url: "https://i.pinimg.com/736x/bc/5e/3c/bc5e3c68c4b51ef319c7ff0f8a79897f.jpg",
@@ -379,7 +371,7 @@ export const movies = [
     "A gritty Bengali action‑thriller set in the coalfields of Damodar Valley, 'Khaddan' (Khadaan) stars Dev in dual roles and Jisshu Sengupta as his complex ally and adversary. Directed by Soojit Dutta, it chronicles ambition, betrayal, and power in a dramatic rise of two friends turned mining lords.",
 },
 {
-    id: 48,
+    id: 47,
     title: "Hridayam",
     release_date: "2022-01-21",
     url: "https://i.pinimg.com/originals/4f/cf/62/4fcf62c1200e7adfdb1344535967766f.jpg?nii=t",
@@ -387,7 +379,7 @@ export const movies = [
   },
 
    {
-    id: 49,
+    id: 48,
     title: "Border",
     release_date: "1997-06-13",
     url: "https://i.pinimg.com/564x/3b/64/57/3b645739f483733547db25eb21caf6d5.jpg",
@@ -395,7 +387,7 @@ export const movies = [
       "Based on the 1971 Battle of Longewala, this epic war drama chronicles the bravery of an Indian Army battalion defending their post against overwhelming odds."
   },
   {
-    id: 50,
+    id: 49,
     title: "LOC: Kargil",
     release_date: "2003-12-25",
     url: "https://i.pinimg.com/564x/f9/26/7a/f9267af2e4a5a35c2a91c84fb0362f64.jpg",
@@ -403,7 +395,7 @@ export const movies = [
       "A detailed portrayal of Operation Vijay during the Kargil War, with an ensemble cast showcasing sacrifice, strategy and patriotism."
   },
   {
-    id: 51,
+    id: 50,
     title: "Lakshya",
     release_date: "2004-06-18",
     url: "https://i.pinimg.com/474x/6b/81/0c/6b810caecfe7746f1f841f0199b49ef3.jpg",
@@ -411,7 +403,7 @@ export const movies = [
       "A coming‑of‑age war drama where Hrithik Roshan transforms from aimless youth into a committed army officer during the Kargil conflict."
   },
   {
-    id: 52,
+    id: 51,
     title: "Shaurya",
     release_date: "2008-04-04",
     url: "https://i.pinimg.com/736x/4f/ac/9b/4fac9ba298743cbbdd1be8864bf6556f.jpg",
@@ -419,7 +411,7 @@ export const movies = [
       "A military courtroom drama exploring honour, duty and justice when an army officer is accused of killing his commanding officer."
   },
   {
-    id: 53,
+    id: 52,
     title: "1971",
     release_date: "2007-03-09",
     url: "https://i.pinimg.com/474x/f6/e5/ff/f6e5ff2f31a2717edd632e35ec2e9091.jpg",
@@ -427,7 +419,7 @@ export const movies = [
       "Inspired by true events: six Indian soldiers escape a Pakistani POW camp in 1971, risking everything to return home."
   },
   {
-    id: 54,
+    id: 53,
     title: "The Ghazi Attack",
     release_date: "2017-02-17",
     url: "https://i.pinimg.com/736x/ef/d4/00/efd400f6720bf42bb9c447b402737f15.jpg",
@@ -435,7 +427,7 @@ export const movies = [
       "India's first submarine thriller, dramatizing the sinking of PNS Ghazi during the 1971 war aboard INS Karanj."
   },
   {
-    id: 55,
+    id: 54,
     title: "Shershaah",
     release_date: "2021-08-12",
     url: "https://i.pinimg.com/236x/b0/1c/d1/b01cd11b004804282bfd4191e969ec76.jpg",
@@ -443,7 +435,7 @@ export const movies = [
       "Biopic of Captain Vikram Batra, Param Vir Chakra awardee, focusing on his courage and sacrifice during the Kargil War."
   },
   {
-    id: 56,
+    id: 55,
     title: "Bhuj: The Pride of India",
     release_date: "2021-08-13",
     url: "https://i.pinimg.com/564x/88/52/dd/8852dd419a6ce60092c805d840c88445.jpg",
@@ -451,7 +443,7 @@ export const movies = [
       "Based on the real 1971 war effort in Bhuj: local women rebuild the airstrip in 72 hours to support the Air Force."
   },
   {
-    id: 57,
+    id: 56,
     title: "Sam Bahadur",
     release_date: "2023-12-01",
     url: "https://i.pinimg.com/736x/c5/39/12/c53912768a3825d4bae3cb3dd1ed2108.jpg",
@@ -460,7 +452,7 @@ export const movies = [
   },
 
   {
-    id: 58,
+    id: 57,
     title: "Civil War",
     release_date: "2024-04-12",
     url: "https://i.pinimg.com/736x/7d/ff/3b/7dff3b26a7d32d67106da55b93067f12.jpg",
@@ -468,7 +460,7 @@ export const movies = [
       "A dystopian action‑thriller by Alex Garland depicting a U.S. civil war through the eyes of war correspondents traversing ravaged cities."
   },
   {
-    id: 59,
+    id: 58,
     title: "Warfare",
     release_date: "2025-04-09",
     url: "https://i.pinimg.com/736x/77/53/2b/77532ba166fe8c7c0fa22ef38127fca6.jpg",
@@ -476,7 +468,7 @@ export const movies = [
       "An unflinching portrayal of a botched U.S. Navy SEAL operation in Iraq—claustrophobic, minimalistic, and grounded in real military detail."
   },
   {
-    id: 60,
+    id: 59,
     title: "The Six Triple Eight",
     release_date: "2024-12-06",
     url: "https://savethecat.com/wp-content/uploads/2025/06/blog-page.jpg",
@@ -484,7 +476,7 @@ export const movies = [
       "World War II drama about the 6888th Central Postal Directory Battalion—the all-African‑American, all-female unit behind Allied communication logistics."
   },
   {
-    id: 61,
+    id: 60,
     title: "The Ministry of Ungentlemanly Warfare",
     release_date: "2024-04-19",
     url: "https://i0.wp.com/the-past.com/wp-content/uploads/2024/09/post-1_image0-13.jpg?w=1230&ssl=1",
@@ -492,7 +484,7 @@ export const movies = [
       "Guy Ritchie’s stylized tribute to Churchill’s secret SOE operatives during WWII, starring Henry Cavill and Henry Golding."
   },
   {
-    id: 62,
+    id: 61,
     title: "Shadow Force",
     release_date: "2025-05-09",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoBmHTC_xiWuj0JCJDQJds5ljeqtEGLHAMw&s",
@@ -500,7 +492,7 @@ export const movies = [
       "A Lionsgate action thriller about covert ops featuring a multinational cast—espionage, intense combat scenes, but underwhelming box office."
   },
   {
-    id: 63,
+    id: 62,
     title: "Chhaava",
     release_date: "2025‑??‑??",
     url: "https://i.pinimg.com/236x/85/c9/49/85c949e6aa2cd8deee4eb5a65695b961.jpg",
@@ -509,7 +501,7 @@ export const movies = [
   },
 
   {
-    id: 64,
+    id: 63,
     title: "Sikandar",
     release_date: "2025‑03‑30",
     url: "https://i.pinimg.com/736x/f3/4d/50/f34d5093817e63a7e09c91f8b0511561.jpg",
@@ -517,7 +509,7 @@ export const movies = [
       "A patriotic action drama featuring Salman Khan in dual role with Rashmika Mandanna and Sanjay Dutt—fighting for justice in his village."
   },
   {
-    id: 65,
+    id: 64,
     title: "Alpha",
     release_date: "2025‑12‑25",
     url: "https://i.pinimg.com/736x/f8/c2/ec/f8c2ec80a67071e260f1b420d147ad22.jpg",
@@ -525,7 +517,7 @@ export const movies = [
       "Sci‑fi thriller starring Alia Bhatt, Bobby Deol and Sharvari—set in a dystopian future where AI ethics and human survival collide."
   },
   {
-    id: 66,
+    id: 65,
     title: "Emergency",
     release_date: "2025‑01‑17",
     url: "https://wishesh.com/images/articles/Reviews/Emergency-Movie-Review.jpg",
@@ -533,7 +525,7 @@ export const movies = [
       "Directed and led by Kangana Ranaut as Indira Gandhi, this gripping political drama retraces India’s Emergency era of 1975."
   },
   {
-    id: 67,
+    id: 66,
     title: "Azaad",
     release_date: "2025‑01‑17",
     url: "https://i.pinimg.com/736x/1b/11/09/1b1109a0679112b4108840dc9687f565.jpg",
@@ -541,7 +533,7 @@ export const movies = [
       "Adventure‑historical tale of a stable boy and his spirited horse, starring Ajay Devgn, Aaman Devgn and Rasha Thadani."
   },
   {
-    id: 68,
+    id: 67,
     title: "Sky Force",
     release_date: "2025‑01‑24",
     url: "https://resizing.flixster.com/bgtJAEzQqnPukxq1Z3gnYM7_L0s=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29237389_k_v9_ab.jpg",
@@ -549,7 +541,7 @@ export const movies = [
       "Patriotic action drama starring Akshay Kumar in aerial combat and courage aboard Indian Air Force missions."
   },
   {
-    id: 69,
+    id: 68,
     title: "Sitaare Zameen Par",
     release_date: "2025‑08‑01",
     url: "https://i.pinimg.com/736x/cb/5a/c5/cb5ac53328058c60e671854b55c269aa.jpg",
@@ -557,7 +549,7 @@ export const movies = [
       "Aamir Khan returns with a moving drama about mentorship and rediscovery of passion, alongside Fatima Sana Shaikh."
   },
   {
-    id: 70,
+    id: 69,
     title: "Murderbaad",
     release_date: "2025‑07‑18",
     url: "https://assets.gadgets360cdn.com/pricee/assets/product/202506/Murderbaad_1_1750921141.jpg?downsize=400:*",
@@ -565,7 +557,7 @@ export const movies = [
       "A gritty crime‑thriller starring Nakul Roshan Sahdev and Kanikka Kapoor, exploring dark secrets and vengeance."
   },
   {
-    id: 71,
+    id: 70,
     title: "Nikita Roy",
     release_date: "2025‑07‑18",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcBueqdX7XqmTJ6KqfiPCEspUK4VUXJp2OA&s",
@@ -573,7 +565,7 @@ export const movies = [
       "Ensemble drama featuring Sonakshi Sinha, Paresh Rawal and Arjun Rampal—amid socio‑political unrest and personal conflict."
   },
   {
-    id: 72,
+    id: 71,
     title: "Maalik",
     release_date: "2025‑07‑11",
     url: "https://i.pinimg.com/736x/b6/10/5d/b6105d2d24878a8fdcbc88d6cf08fe59.jpg",
@@ -582,7 +574,7 @@ export const movies = [
   },
 
   {
-    id: 73,
+    id: 72,
     title: "Thudarum",
     release_date: "2025‑04‑25",
     url: "https://i.pinimg.com/736x/14/49/7c/14497c74ce20887ac7f935cd881a6a5c.jpg",
@@ -590,7 +582,7 @@ export const movies = [
       "Starring Mohanlal in a powerful Malayalam action‑drama, ‘Thudarum’ follows an ordinary taxi‑driver drawn into a criminal conspiracy; massive hit and one of Kerala’s top grossers in 2025."
   },
   {
-    id: 74,
+    id: 73,
     title: "Kadhalikka Neramillai",
     release_date: "2025‑01‑14",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ90X9CZ8Bh88ssFCyad6mEdBhhjibb-jmM-g&s",
@@ -598,7 +590,7 @@ export const movies = [
       "A Tamil rom‑com directed by Kiruthiga Udhayanidhi starring Ravi Mohan and Nithya Menen, with music by AR Rahman—light‑hearted fun during Pongal season."
   },
   {
-    id: 75,
+    id: 74,
     title: "Madarasi" ,
     release_date: "2025‑09‑05",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObyZ51t9XTKyvpOfdPGmijl1aA6qwmFUvmQ&s",
@@ -606,7 +598,7 @@ export const movies = [
       "A high‑budget Tamil action thriller by AR Murugadoss featuring Sivakarthikeyan, Vidyut Jammwal, and Rukmini Vasanth in a pan‑India release."
   },
   {
-    id: 76,
+    id: 75,
     title: "Shivangi Lioness",
     release_date: "2025‑03‑07",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkd2RciupfPDEXyXEqf4gtUnsbgkUcXwclgg&s",
@@ -614,7 +606,7 @@ export const movies = [
       "Telugu drama thriller starring Anandhi and Varalaxmi Sarathkumar as a determined housewife in this murder‑mystery against social odds."
   },
   {
-    id: 77,
+    id: 76,
     title: "Pothugadda",
     release_date: "2025‑01‑30",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezlvImMb0PuVT6lUMoU7JPfmIguAtXPIIlA&s",
@@ -622,7 +614,7 @@ export const movies = [
       "Telugu political drama about a couple caught in a violent political hijack; released on ETV Win, featuring ensemble cast led by Shatru and Aadukalam Naren."
   },
   {
-    id: 78,
+    id: 77,
     title: "Idly Kadai",
     release_date: "2025‑04‑10",
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDGXu1EEz0RbYCGDp-NdkS2Fzhx6-ghH1TQ&s",
@@ -630,7 +622,7 @@ export const movies = [
       "Tamil drama by Dhanush who also stars and produces; follows a caterer turned boxer‑coach in a story of resilience and community uplift."
   },
   {
-    id: 79,
+    id: 78,
     title: "Lovely",
     release_date: "2025‑05‑02",
     url: "https://i.pinimg.com/236x/1c/eb/3b/1ceb3bf0a15afd97fd452a321f35275e.jpg",
@@ -638,7 +630,7 @@ export const movies = [
       "Malayalam’s first hybrid live‑action 3D fantasy, featuring a man who befriends a talking housefly; whimsical, humorous and imaginative adventure."
   },
   {
-    id: 80,
+    id: 79,
     title: "Tourist Family",
     release_date: "2025‑05‑01",
     url: "https://i.pinimg.com/474x/d1/3e/00/d13e00b23f9651ea8cc2ebeaf5ebd2ac.jpg",
@@ -646,7 +638,7 @@ export const movies = [
       "Tamil family drama starring Simran and Sasikumar, about a Sri Lankan Tamil family posing as Malayalees to escape political crisis—deeply moving and realistic."
   },
   {
-    id: 81,
+    id: 80,
     title: "Bazooka",
     release_date: "2025‑04‑10",
     url: "https://i.pinimg.com/736x/36/34/da/3634da527ddbe870de0f72703bede348.jpg",
@@ -654,7 +646,7 @@ export const movies = [
       "Malayalam debut thriller by Deeno Dennis starring Mammootty; a cop and businessman use detailed mind‑games to trap a serial killer."
   },
   {
-    id: 83,
+    id: 81,
     title: "Kannappa",
     release_date: "2025‑06‑27",
     url: "https://i.pinimg.com/736x/55/88/ac/5588ac45d9a8cdcd0d762499738fb9a4.jpg",
