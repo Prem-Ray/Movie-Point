@@ -31,7 +31,7 @@ A sleek, local-data movie app built with **React + Vite** and styled using **Tai
 
 ```
 
-movieapp/
+Movie-Point/
 ├── public/            # Static assets (icon, movie.mp4)
 ├── src/
 │   ├── components/    # MovieCard, NavBar
