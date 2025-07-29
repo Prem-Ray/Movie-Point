@@ -34,7 +34,7 @@ export function MovieCard({ movie }) {
           }
           alt={movie.title}
           draggable="false"
-          className="w-full h-[300px] sm:h-[340px] object-cover select-none rounded-t-2xl shadow-lg bg-gray-100"
+          className="w-full h-[325px] sm:h-[365px] object-cover select-none rounded-t-2xl shadow-lg bg-gray-100"
         />
 
         {/* Favorite Icon Overlay */}
