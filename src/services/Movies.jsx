@@ -653,6 +653,16 @@ export const movies = [
     description:
       "Pan‑India Telugu mytho‑fantasy starring Vishnu Manchu and Akshay Kumar—based on the folk legend of Kannappa, the hunter‑devotee of Lord Shiva."
   },
+
+  {
+  id: 82,
+  title: "Sanam Teri Kasam",
+  release_date: "2016-02-05",
+  url: "https://i.pinimg.com/236x/10/58/18/10581837a976113de4f18a57a4dfd2a0.jpg",
+  description:
+    "A tragic romantic drama featuring Harshvardhan Rane and Mawra Hocane. It tells the emotional love story of a misunderstood girl and a brooding ex-convict, bound by fate and heartbreak."
+}
+
   
 
 

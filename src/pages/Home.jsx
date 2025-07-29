@@ -123,7 +123,7 @@ export function Home() {
               autoPlay
               loop
               muted
-              className="object-cover absolute top-[14px] left-[36px] w-[200px] h-[116px] -z-20"
+              className="filter brightness-110 contrast-125 saturate-150 object-cover absolute top-[14px] left-[36px] w-[200px] h-[116px] -z-20"
             >
               <source src="/movie.mp4" type="video/mp4" />
               Your browser does not support the video tag.
