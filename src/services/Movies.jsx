@@ -661,7 +661,48 @@ export const movies = [
   url: "https://i.pinimg.com/236x/10/58/18/10581837a976113de4f18a57a4dfd2a0.jpg",
   description:
     "A tragic romantic drama featuring Harshvardhan Rane and Mawra Hocane. It tells the emotional love story of a misunderstood girl and a brooding ex-convict, bound by fate and heartbreak."
-}
+},
+{
+  id: 83,
+  title: "Aashiqui 2",
+  release_date: "2013-04-26",
+  url: "https://i.pinimg.com/474x/ab/68/54/ab685499e8212841209e03e76c1305c5.jpg",
+  description:
+    "A soulful love story of a fading singer and a rising star, Aashiqui 2 explores passion, sacrifice, and the painful cost of fame."
+},
+{
+  id: 84,
+  title: "Tamasha",
+  release_date: "2015-11-27",
+  url: "https://i.pinimg.com/originals/0c/d6/a1/0cd6a1e4b0c39eec51a0df7dde29a07e.jpg",
+  description:
+    "A poetic love story directed by Imtiaz Ali where two strangers discover themselves and each other in Corsica and beyond."
+},
+{
+  id: 85,
+  title: "Kal Ho Naa Ho",
+  release_date: "2003-11-28",
+  url: "https://i.pinimg.com/474x/36/84/8b/36848b002a1914e9c2b909ed8bf979cf.jpg",
+  description:
+    "An emotional rollercoaster that blends love, laughter, and heartbreak—starring Shah Rukh Khan, Saif Ali Khan, and Preity Zinta."
+},
+{
+  id: 86,
+  title: "Rehna Hai Tere Dil Mein",
+  release_date: "2001-10-19",
+  url: "https://i.pinimg.com/736x/b5/c0/17/b5c0173566949cf946b08aeb5c79ec13.jpg",
+  description:
+    "A cult classic romantic drama where a man wins over his dream girl by pretending to be someone else—will love survive the truth?"
+},
+{
+  id: 87,
+  title: "Barfi!",
+  release_date: "2012-09-14",
+  url: "https://i.pinimg.com/474x/3c/14/c7/3c14c7728677688c521d800d7137a43f.jpg",
+  description:
+    "A heartwarming tale of love beyond language and limits—featuring a mute boy, an autistic girl, and a story full of charm and innocence."
+},
+
 
   
 
