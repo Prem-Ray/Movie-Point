@@ -743,4 +743,68 @@ export const movies = [
     description:
       "A refreshing Telugu love story starring Varun Tej and Raashi Khanna—about love at first sight, college dreams, and emotional maturity.",
   },
+  {
+    id: 93,
+    title: "A Quiet Place: Day One",
+    release_date: "2024-06-28",
+    url: "https://i.pinimg.com/736x/3b/1f/9b/3b1f9bf7b2ab645d4ae51d470edc1690.jpg",
+    description:
+      "A prequel to the hit horror-thriller series, showing the terrifying first day of the alien invasion in a sound-sensitive world—starring Lupita Nyong’o.",
+  },
+  {
+    id: 94,
+    title: "Oppenheimer",
+    release_date: "2023-07-21",
+    url: "https://i.pinimg.com/originals/fd/c1/bb/fdc1bba8cfc42dd8189efcf291005897.jpg",
+    description:
+      "Christopher Nolan's epic biopic about J. Robert Oppenheimer, the father of the atomic bomb—starring Cillian Murphy.",
+  },
+  {
+    id: 95,
+    title: "Dune: Part Two",
+    release_date: "2024-03-01",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Y-m7YwdBxOd-HVKOyVsUi7Hs_ZnMwGpunQ&s",
+    description:
+      "The continuation of the sci-fi epic with Paul Atreides embracing his destiny—starring Timothée Chalamet and Zendaya.",
+  },
+  {
+    id: 96,
+    title: "Mission: Impossible – Dead Reckoning Part One",
+    release_date: "2023-07-12",
+    url: "https://i.pinimg.com/736x/62/9a/a4/629aa48e1dc8fec48c6bd509505c6021.jpg",
+    description:
+      "Tom Cruise returns as Ethan Hunt in a high-stakes mission to control a rogue AI before it destroys the world.",
+  },
+  {
+    id: 97,
+    title: "Wonka",
+    release_date: "2023-12-08",
+    url: "https://i.pinimg.com/564x/68/64/5e/68645ee74f8fed3a446bf41e788d4641.jpg",
+    description:
+      "A charming musical origin story of Willy Wonka—starring Timothée Chalamet, exploring how he became the world's most famous chocolatier.",
+  },
+  {
+    id: 98,
+    title: "Napoleon",
+    release_date: "2023-11-22",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfKDbe5P_ejpn_o7MQRB2KV4G3WnRUBf88A&s",
+    description:
+      "Ridley Scott’s sweeping biographical drama starring Joaquin Phoenix as the legendary French emperor Napoleon Bonaparte.",
+  },
+  {
+    id: 99,
+    title: "The Marvels",
+    release_date: "2023-11-10",
+    url: "https://i.pinimg.com/736x/19/54/5a/19545ab2e0566df30184e8799b9bf5b6.jpg",
+    description:
+      "Captain Marvel, Ms. Marvel, and Monica Rambeau join forces to unravel cosmic chaos in this action-packed Marvel sequel.",
+  },
+  {
+    id: 100,
+    title: "Inside Out 2",
+    release_date: "2024-06-14",
+    url: "https://i.pinimg.com/474x/42/cf/ed/42cfedc52183c2dfb98974a573bea021.jpg",
+    description:
+      "The beloved Pixar sequel revisits Riley’s mind with new emotions as she navigates teenage life and growing up.",
+  },
 ];
